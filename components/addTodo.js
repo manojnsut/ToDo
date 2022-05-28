@@ -13,14 +13,14 @@ export default function AddTodo({submitHandler}) {
         <View>
             <TextInput 
             style={styles.input}
-            placeholder='new todo...'
+            placeholder='Add new task...'
             value={text}     //used for capturing the text
             onChangeText={changeHandler}
             />
              <Button onPress={() => {
                 submitHandler(text);
                 setText('');       //it will empty the textinput field after pressing the add/submit button
-                }} title='add todo' color='coral'/>
+                }} title='add To DO' color='coral'/>
         </View>
     )
 }

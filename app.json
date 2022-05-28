@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "myproject",
-    "slug": "myproject",
+    "name": "To Do App",
+    "slug": "to-do-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A To do list app to create your day to day task and manage them in an efficient way",
+    "githubUrl": "https://github.com/manojnsut/ToDo"
   }
 }
